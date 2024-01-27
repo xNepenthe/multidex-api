@@ -1,0 +1,1 @@
+export { fastifyConfig } from "./fastifyConfig";

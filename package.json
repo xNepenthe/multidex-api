@@ -1,0 +1,59 @@
+{
+  "name": "multidex-api",
+  "version": "0.0.1",
+  "description": "API for fetching info on databeses for SMT demons, Pokemons, Digimons, etc...",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc -p ./tsconfig.json",
+    "dev": "nodemon src/index.ts",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xNepenthe/smt-api.git"
+  },
+  "keywords": [
+    "shin",
+    "megami",
+    "tensei",
+    "database",
+    "smt",
+    "persona",
+    "digital",
+    "devil",
+    "summoner",
+    "dds",
+    "api"
+  ],
+  "author": "xNepenthe (Milano, Fernando)",
+  "license": "SEE LICENSE IN LICENSE file",
+  "bugs": {
+    "url": "https://github.com/xNepenthe/smt-api/issues"
+  },
+  "homepage": "https://github.com/xNepenthe/smt-api#readme",
+  "dependencies": {
+    "@fastify/cors": "^9.0.0",
+    "@fastify/helmet": "^11.1.1",
+    "@fastify/postgres": "^5.2.2",
+    "@fastify/swagger": "^8.14.0",
+    "dotenv": "^16.4.1",
+    "fastify": "^4.25.2",
+    "fastify-blipp": "^3.1.0",
+    "fastify-metrics": "^10.6.0",
+    "megaten": "^2.2.1",
+    "pg": "^8.11.3",
+    "pino-pretty": "^10.3.1",
+    "source-map-support": "^0.5.21",
+    "typeorm": "^0.3.20"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.7",
+    "@types/pg": "^8.11.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  }
+}
